@@ -21,6 +21,8 @@ wotdURL=http://feeds.feedblitz.com/#lang#-word-of-the-day&x=1
 loc=68131
 units=f
 wxURL=http://wxdata.weather.com/wxdata/weather/local/#loc#?cc=*&unit=#units#&dayf=8
+;Uncomment below line to prevent server requests during weather regExp debugging
+;wxURL=file:///D:\Documents\Rainmeter\Skins\frame\Weather\WebParserDump.txt
 
 { 'maxDown' and 'maxUp' are the download and upload speed of your connection in *Bits* per second }
 { Most ISPs and speed tests report speeds in Mbps (Mega*bits* per second), which is different that MBps (Mega*bytes* per second) }
