@@ -30,8 +30,8 @@ function Initialize()
       frameX = round(screenX + (screenWidth / 4))
       frameY = round(screenY + ((screenHeight - frameHeight) / 2))
 
-      baseX = round(frameX - (2 * block))
-      baseY = round(frameY - (6 * block))
+      baseX = round(frameX - block)
+      baseY = round(frameY - (7 * block))
       
       SKIN:Bang('!WriteKeyValue', 'Variables', 'block', block, '#@#Variables.inc')
       SKIN:Bang('!WriteKeyValue', 'Variables', 'frameW', frameWidth, '#@#Variables.inc')
