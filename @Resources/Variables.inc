@@ -3,7 +3,8 @@ font=Segoe UI Light
 color1=255,255,255,255
 color2=255,255,255,192
 color3=255,255,255,128
-color4=0,0,0,192
+color4=41,41,41,153
+color5=0,0,0,153
 
 12hr=0
 metric=0
