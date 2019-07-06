@@ -5,12 +5,15 @@ color2=255,255,255,192
 color3=255,255,255,128
 color4=41,41,41,153
 color5=0,0,0,153
+color6=255,255,255,192
 
 12hr=0
 metric=0
 sun1st=0
 showBat=1
 rate=5
+light=0
+theme=Dark
 
 ; Language must be all lowercase to work. Not all languages are supported, if yours isn't, nothing will appear.
 ; I don't own the site and can't do anything about adding your preferred language.
