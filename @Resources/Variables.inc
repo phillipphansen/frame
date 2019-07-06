@@ -34,11 +34,11 @@ wxURL=http://wxdata.weather.com/wxdata/weather/local/#loc#?cc=*&unit=#units#&day
 maxDown=100000000
 maxUp=10000000
 
-res=3840x2160
-block=16
-frameX=960
-frameY=540
-frameW=1920
-frameH=1080
-baseX=944
-baseY=428
+res=1920x1080
+block=8
+frameX=480
+frameY=270
+frameW=960
+frameH=540
+baseX=472
+baseY=214
