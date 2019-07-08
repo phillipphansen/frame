@@ -3,7 +3,7 @@ font=Segoe UI Light
 color1=255,255,255,255
 color2=255,255,255,192
 color3=255,255,255,128
-color4=41,41,41,153
+color4=32,32,32,153
 color5=0,0,0,153
 color6=255,255,255,192
 
@@ -13,7 +13,7 @@ sun1st=0
 showBat=1
 rate=5
 light=0
-theme=Dark
+classic=0
 
 ; Language must be all lowercase to work. Not all languages are supported, if yours isn't, nothing will appear.
 ; I don't own the site and can't do anything about adding your preferred language.
@@ -34,11 +34,11 @@ wxURL=http://wxdata.weather.com/wxdata/weather/local/#loc#?cc=*&unit=#units#&day
 maxDown=100000000
 maxUp=10000000
 
-res=1920x1080
-block=8
-frameX=480
-frameY=270
-frameW=960
-frameH=540
-baseX=472
-baseY=214
+res=3840x2160
+block=16
+frameX=960
+frameY=540
+frameW=1920
+frameH=1080
+baseX=944
+baseY=428
