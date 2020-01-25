@@ -1,23 +1,17 @@
-[mBuild]
-Measure=Plugin
-Plugin=WebParser.dll
-URL=[mWX]
+[@CurrentObservationTime]
+Measure=WebParser
+Group=Weather | WeatherCurrent
+Url=[@CurrentParent]
+StringIndex=2
+
+[@CurrentSunrise]
+Measure=WebParser
+Group=Weather | WeatherCurrent
+Url=[@CurrentSunParent]
+StringIndex=2
+
+[@CurrentSunset]
+Measure=WebParser
+Group=Weather | WeatherCurrent
+Url=[@CurrentSunParent]
 StringIndex=4
-Group=wxMeasures
-Substitute="AM":"am","PM":"pm"
-
-[mSunRise]
-Measure=Plugin
-Plugin=WebParser.dll
-URL=[mWX]
-StringIndex=5
-Group=wxMeasures
-Substitute="AM":"am","PM":"pm"
-
-[mSunSet]
-Measure=Plugin
-Plugin=WebParser.dll
-URL=[mWX]
-StringIndex=6
-Group=wxMeasures
-Substitute="AM":"am","PM":"pm"
